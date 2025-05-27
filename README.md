@@ -17,6 +17,6 @@
 
 ## 🔗 Connect
 
-- 📧 **Email:** andreafprevitali@gmail.com
+- 📧 **Email:** ipergiove+jobs@gmail.com
 
 ---
