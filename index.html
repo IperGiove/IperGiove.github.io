@@ -450,6 +450,39 @@
             font-size: 0.8rem;
             background: #f8f9fa;
         }
+
+        .name-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 12px;
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            object-fit: cover;
+            background: white;
+            padding: 4px;
+        }
+
+        .name {
+            font-size: 3.2rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin: 0;
+        }
+
+        .profile-pic {
+            width: 60px;
+            height: 60px;
+        }
+
+        .name-container {
+            gap: 15px;
+        }
     </style>
 </head>
 
@@ -457,7 +490,10 @@
     <div class="cv-container">
         <header class="header">
             <div class="header-content">
-                <h1 class="name">IperGiove</h1>
+                <div class="name-container">
+                    <img src="favicon.ico" alt="IperGiove" class="profile-pic">
+                    <h1 class="name">IperGiove</h1>
+                </div>
                 <p class="title">Data Scientist & Crypto Trading Specialist</p>
 
                 <div class="contact-info">
